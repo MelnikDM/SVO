@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6392acdac50354644751beebde53adce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6392acdac50354644751beebde53adce" ></div>
+        
+</body>
+<script>    
+    
+            var map_6392acdac50354644751beebde53adce = L.map(
+                "map_6392acdac50354644751beebde53adce",
+                {
+                    center: [50.081791, 36.306507],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e902bd81d2f787e98f4b469e0a69c3da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+            var circle_4f42916f6e7655b4648a887878a28806 = L.circle(
+                [49.987928, 36.211424],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300000, "stroke": true, "weight": 1}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+        var popup_5653d01dcb8c2241b85976f54df43b5e = L.popup({"maxWidth": 350});
+
+        
+            var html_52350ed791b05f968801bb00e0e7d4b7 = $(`<div id="html_52350ed791b05f968801bb00e0e7d4b7" style="width: 100.0%; height: 100.0%;"><h3>MGM-168 ATACMS – Block IA</h3><br/>               - На гусеничном ходу M270 - 2 ракеты MGM-168<br/>               - На колесном ходу М142 - 1 ракета MGM-168 <br/>               - Дальность кассетного: 300 км<br/>               - Дальность унитарного: 270 км<br/>               - Полезная нагрузка: 247 кг<br/> <br/>               <img src="https://i1.wp.com/missilethreat.csis.org/wp-content/uploads/2021/03/ATACMS-MLRS_US-Army.jpg" alt="M270" style="max-width:50%;max-height:50%"></div>`)[0];
+            popup_5653d01dcb8c2241b85976f54df43b5e.setContent(html_52350ed791b05f968801bb00e0e7d4b7);
+        
+
+        circle_4f42916f6e7655b4648a887878a28806.bindPopup(popup_5653d01dcb8c2241b85976f54df43b5e)
+        ;
+
+        
+    
+    
+            circle_4f42916f6e7655b4648a887878a28806.bindTooltip(
+                `<div>
+                     <b>Army Tactical Missile System Block IA</b>.<br/> Дальность  - до 300 км
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4fc40038fd94d5828387818234701ed3 = L.circle(
+                [49.987928, 36.211424],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 165000, "stroke": true, "weight": 1}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+        var popup_8790cdd7631dbb15e1e7156a187f41f0 = L.popup({"maxWidth": 450});
+
+        
+            var html_41d370efd3ec6a6a13c6603417cdd2ab = $(`<div id="html_41d370efd3ec6a6a13c6603417cdd2ab" style="width: 100.0%; height: 100.0%;"><h3>MGM-140 ATACMS – Block I</h3><br/>               - На гусеничном ходу M270 - 2 ракеты MGM-140<br/>               - На колесном ходу М142 - 1 ракета MGM-140 <br/>               - Дальность кассетного: 165 км<br/>               - Полезная нагрузка: 560 кг<br/> <br/>               <img src="https://sites.breakingmedia.com/uploads/sites/3/2018/11/HIMARS-firing-in-Jordan-Eager-Lion-2017-1000w_q95-170514-Z-LQ308-005-768x512.jpg" alt="M142" style="max-width:75%;max-height:75%"></div>`)[0];
+            popup_8790cdd7631dbb15e1e7156a187f41f0.setContent(html_41d370efd3ec6a6a13c6603417cdd2ab);
+        
+
+        circle_4fc40038fd94d5828387818234701ed3.bindPopup(popup_8790cdd7631dbb15e1e7156a187f41f0)
+        ;
+
+        
+    
+    
+            circle_4fc40038fd94d5828387818234701ed3.bindTooltip(
+                `<div>
+                     <b>Army Tactical Missile System Block I</b>.<br/> Дальность  - до 165 км
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_35f8f083398221a4a592f03e01073cab = L.circleMarker(
+                [49.987928, 36.211424],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+            var circle_445a4b3e7be65863f5951d54b4d371af = L.circle(
+                [46.953967, 32.135737],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 70000, "stroke": true, "weight": 1}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+        var popup_05b56961287ad4fc6585b20a05e04e09 = L.popup({"maxWidth": 350});
+
+        
+            var html_104ce427f4c2ec1c895a48584daa8163 = $(`<div id="html_104ce427f4c2ec1c895a48584daa8163" style="width: 100.0%; height: 100.0%;"><h3>MLRS с M30</h3><br/>               - Дальность кассетного: 70 км<br/>               - Оснащен ГСН с наведением по сигналам системы GPS               <img src="https://root-nation.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/05/m270-mlrs-2.jpg" alt="M270" style="max-width:50%;max-height:50%"></div>`)[0];
+            popup_05b56961287ad4fc6585b20a05e04e09.setContent(html_104ce427f4c2ec1c895a48584daa8163);
+        
+
+        circle_445a4b3e7be65863f5951d54b4d371af.bindPopup(popup_05b56961287ad4fc6585b20a05e04e09)
+        ;
+
+        
+    
+    
+            circle_445a4b3e7be65863f5951d54b4d371af.bindTooltip(
+                `<div>
+                     <b>Multiple Launch Rocket System M30 A1/A2</b>.<br/> Дальность  - до 70 км
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f5f6b135ee8617de107a32a3fcad0d8 = L.circle(
+                [46.953967, 32.135737],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45000, "stroke": true, "weight": 1}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+    
+        var popup_fd56582f3b7ba9a4282e9bfb5d51480d = L.popup({"maxWidth": 350});
+
+        
+            var html_19917d54d9c2bee0ceba593162df62f4 = $(`<div id="html_19917d54d9c2bee0ceba593162df62f4" style="width: 100.0%; height: 100.0%;"><h3>MLRS с M26</h3><br/>               - Дальность кассетного: 45 км<br/>               - Полезная нагрузка: 296 кг<br/> <br/>               <img src="https://root-nation.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2022/05/m142-himars-ta-m270-mlrs-6.jpg" alt="M270" style="max-width:50%;max-height:50%"></div>`)[0];
+            popup_fd56582f3b7ba9a4282e9bfb5d51480d.setContent(html_19917d54d9c2bee0ceba593162df62f4);
+        
+
+        circle_5f5f6b135ee8617de107a32a3fcad0d8.bindPopup(popup_fd56582f3b7ba9a4282e9bfb5d51480d)
+        ;
+
+        
+    
+    
+            circle_5f5f6b135ee8617de107a32a3fcad0d8.bindTooltip(
+                `<div>
+                     <b>Multiple Launch Rocket System M26 A1/A2</b>.<br/> Дальность  - до 45 км
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c884eb2f50ed434f9a53625aa45e5f4c = L.circleMarker(
+                [46.953967, 32.135737],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_6392acdac50354644751beebde53adce);
+        
+</script>
