@@ -131,7 +131,7 @@ class CustomDataset(Dataset):
             xmin_final = (xmin/image_width-0.0005)*self.width
             xmax_final = (xmax/image_width-0.00158)*self.width
             ymin_final = (ymin/image_height+0.0012)*self.height
-            yamx_final = (ymax/image_height-0.0018)*self.height
+            ymax_final = (ymax/image_height-0.0018)*self.height
             
             boxes.append([xmin_final, ymin_final, xmax_final, ymax_final])
         
