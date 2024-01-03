@@ -11,13 +11,13 @@ import shutil
 # Validation split ratio.
 VALID_SPLIT = 0.17
 
-IMAGES_FOLDER = os.path.join('data', 'images')
-XML_FOLDER = os.path.join('data', 'annotations')
+IMAGES_FOLDER = os.path.join('/content/SVO/LA_ObjectDetection/data/', 'Images')
+XML_FOLDER = os.path.join('/content/SVO/LA_ObjectDetection/data/', 'Annotations')
 
-TRAIN_IMAGES_DEST = os.path.join('data', 'train_images')
-TRAIN_XML_DEST = os.path.join('data', 'train_xmls')
-VALID_IMAGES_DEST = os.path.join('data', 'valid_images')
-VALID_XMLS_DEST = os.path.join('data', 'valid_xmls')
+TRAIN_IMAGES_DEST = os.path.join('/content/SVO/LA_ObjectDetection/Faster_RCNN_ResNet50_maP/data/', 'train_images')
+TRAIN_XML_DEST = os.path.join('/content/SVO/LA_ObjectDetection/Faster_RCNN_ResNet50_maP/data/', 'train_xmls')
+VALID_IMAGES_DEST = os.path.join('/content/SVO/LA_ObjectDetection/Faster_RCNN_ResNet50_maP/data/', 'valid_images')
+VALID_XMLS_DEST = os.path.join('/content/SVO/LA_ObjectDetection/Faster_RCNN_ResNet50_maP/data/', 'valid_xmls')
 
 os.makedirs(TRAIN_IMAGES_DEST, exist_ok=True)
 os.makedirs(TRAIN_XML_DEST, exist_ok=True)
