@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA0126_jpg.rf.aaf28fd4f320ca6506c2773aa274b784.jpg</filename>
+	<path>LA0126_jpg.rf.aaf28fd4f320ca6506c2773aa274b784.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>MBT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>140</xmin>
+			<xmax>346</xmax>
+			<ymin>345</ymin>
+			<ymax>581</ymax>
+		</bndbox>
+	</object>
+</annotation>

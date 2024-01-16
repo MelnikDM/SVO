@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA0185_jpg.rf.fda9e3a90319528f6b901ab336750d54.jpg</filename>
+	<path>LA0185_jpg.rf.fda9e3a90319528f6b901ab336750d54.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>AIFV</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>292</xmin>
+			<xmax>521</xmax>
+			<ymin>289</ymin>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+</annotation>
