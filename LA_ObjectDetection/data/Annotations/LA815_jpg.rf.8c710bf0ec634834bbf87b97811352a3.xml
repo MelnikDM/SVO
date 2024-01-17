@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA815_jpg.rf.8c710bf0ec634834bbf87b97811352a3.jpg</filename>
+	<path>LA815_jpg.rf.8c710bf0ec634834bbf87b97811352a3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Destroyed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>251</xmin>
+			<xmax>447</xmax>
+			<ymin>95</ymin>
+			<ymax>350</ymax>
+		</bndbox>
+	</object>
+</annotation>

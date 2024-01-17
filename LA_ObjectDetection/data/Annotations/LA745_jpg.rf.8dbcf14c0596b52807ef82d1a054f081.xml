@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA745_jpg.rf.8dbcf14c0596b52807ef82d1a054f081.jpg</filename>
+	<path>LA745_jpg.rf.8dbcf14c0596b52807ef82d1a054f081.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>MBT</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>49</xmin>
+			<xmax>411</xmax>
+			<ymin>375</ymin>
+			<ymax>536</ymax>
+		</bndbox>
+	</object>
+</annotation>

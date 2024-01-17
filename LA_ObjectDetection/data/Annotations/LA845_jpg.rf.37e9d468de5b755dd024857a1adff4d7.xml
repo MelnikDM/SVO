@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA845_jpg.rf.37e9d468de5b755dd024857a1adff4d7.jpg</filename>
+	<path>LA845_jpg.rf.37e9d468de5b755dd024857a1adff4d7.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Vehicle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>257</xmin>
+			<xmax>462</xmax>
+			<ymin>101</ymin>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+</annotation>

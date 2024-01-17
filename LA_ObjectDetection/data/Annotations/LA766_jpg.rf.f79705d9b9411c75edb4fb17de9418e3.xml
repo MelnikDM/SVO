@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA766_jpg.rf.f79705d9b9411c75edb4fb17de9418e3.jpg</filename>
+	<path>LA766_jpg.rf.f79705d9b9411c75edb4fb17de9418e3.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Destroyed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>200</xmin>
+			<xmax>392</xmax>
+			<ymin>141</ymin>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>
