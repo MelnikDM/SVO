@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>LA0293_jpg.rf.2ff0d29eb478357b4700c13608934b1e.jpg</filename>
+	<path>LA0293_jpg.rf.2ff0d29eb478357b4700c13608934b1e.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>APC</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>203</xmin>
+			<xmax>435</xmax>
+			<ymin>283</ymin>
+			<ymax>418</ymax>
+		</bndbox>
+	</object>
+</annotation>
