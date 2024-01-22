@@ -69,10 +69,10 @@ class CustomDataset(Dataset):
             
             # Resize the bounding boxes according 
             # to resized image `width`, `height`.
-            xmin_final = (xmin/image_width)*self.width
-            xmax_final = (xmax/image_width)*self.width
-            ymin_final = (ymin/image_height)*self.height
-            ymax_final = (ymax/image_height)*self.height
+            xmin_final = (xmin/image_width-0.0005)*self.width
+            xmax_final = (xmax/image_width-0.00158)*self.width
+            ymin_final = (ymin/image_height+0.0012)*self.height
+            ymax_final = (ymax/image_height-0.0018)*self.height
 
             # Check that all coordinates are within the image.
             if xmax_final > self.width:

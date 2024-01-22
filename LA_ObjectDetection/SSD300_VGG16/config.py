@@ -14,7 +14,12 @@ VALID_DIR = 'data/LA/valid'
 
 # Classes: 0 index is reserved for background.
 CLASSES = [
-    '__background__', 'License_Plate'
+    '__background__',
+    'MBT',
+    'APC',
+    'AIFV',
+    'Vehicle',
+    'Destroyed'
 ]
 
 NUM_CLASSES = len(CLASSES)
