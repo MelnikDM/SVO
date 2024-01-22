@@ -8,9 +8,9 @@ NUM_WORKERS = 4 # Number of parallel workers for data loading.
 DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 # Training images and XML files directory.
-TRAIN_DIR = 'data/LA/train'
+TRAIN_DIR = '/content/SVO/LA_ObjectDetection/SSD300_VGG16/data/LA/train'
 # Validation images and XML files directory.
-VALID_DIR = 'data/LA/valid'
+VALID_DIR = '/content/SVO/LA_ObjectDetection/SSD300_VGG16/data/LA/train'
 
 # Classes: 0 index is reserved for background.
 CLASSES = [
@@ -28,4 +28,4 @@ NUM_CLASSES = len(CLASSES)
 VISUALIZE_TRANSFORMED_IMAGES = False
 
 # Location to save model and plots.
-OUT_DIR = 'outputs'
+OUT_DIR = '/content/outputs/'
