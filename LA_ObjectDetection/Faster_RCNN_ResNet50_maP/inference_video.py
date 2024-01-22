@@ -152,8 +152,8 @@ def main(args):
         # If config file is not given, load from model dictionary.
         if data_configs is None:
             data_configs = True
-            NUM_CLASSES = checkpoint['data']['NC']
-            CLASSES = checkpoint['data']['CLASSES']
+            NUM_CLASSES = checkpoint['config']['NC']
+            CLASSES = checkpoint['config']['CLASSES']
         try:
             print('Building from model name arguments...')
             build_model = create_model[str(args['model'])]
