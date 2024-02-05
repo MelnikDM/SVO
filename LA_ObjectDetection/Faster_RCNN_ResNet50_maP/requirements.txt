@@ -20,4 +20,4 @@ tensorboard
 
 # Extras----------------------------------
 pycocotools>=2.0.2
-setuptools==59.5.0
+setuptools==65.5.1
